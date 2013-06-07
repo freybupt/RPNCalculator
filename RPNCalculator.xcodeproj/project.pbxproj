@@ -20,6 +20,14 @@
 		498F06C715F96A64005ADCCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498F06A815F96A63005ADCCE /* Foundation.framework */; };
 		498F06CF15F96A65005ADCCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 498F06CD15F96A65005ADCCE /* InfoPlist.strings */; };
 		498F06D215F96A65005ADCCE /* RPNCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498F06D115F96A65005ADCCE /* RPNCalculatorTests.m */; };
+		582E251515FD120000DE2A40 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E251315FD120000DE2A40 /* icon.png */; };
+		582E251615FD120000DE2A40 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E251415FD120000DE2A40 /* icon@2x.png */; };
+		582E251E15FD160600DE2A40 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E251D15FD160600DE2A40 /* blue.png */; };
+		582E252015FD191800DE2A40 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E251F15FD191800DE2A40 /* gray.png */; };
+		582E252215FD1EB900DE2A40 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E252115FD1EB900DE2A40 /* Default.png */; };
+		582E252415FD1EBF00DE2A40 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E252315FD1EBF00DE2A40 /* Default@2x.png */; };
+		582E253615FD545700DE2A40 /* lightblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E253415FD545700DE2A40 /* lightblue.png */; };
+		582E253715FD545700DE2A40 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E253515FD545700DE2A40 /* orange.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +60,14 @@
 		498F06CE15F96A65005ADCCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		498F06D015F96A65005ADCCE /* RPNCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPNCalculatorTests.h; sourceTree = "<group>"; };
 		498F06D115F96A65005ADCCE /* RPNCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPNCalculatorTests.m; sourceTree = "<group>"; };
+		582E251315FD120000DE2A40 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		582E251415FD120000DE2A40 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		582E251D15FD160600DE2A40 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		582E251F15FD191800DE2A40 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		582E252115FD1EB900DE2A40 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		582E252315FD1EBF00DE2A40 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		582E253415FD545700DE2A40 /* lightblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightblue.png; sourceTree = "<group>"; };
+		582E253515FD545700DE2A40 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +140,7 @@
 		498F06AD15F96A63005ADCCE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				582E251215FD11F400DE2A40 /* graphics */,
 				498F06AE15F96A63005ADCCE /* RPNCalculator-Info.plist */,
 				498F06AF15F96A63005ADCCE /* InfoPlist.strings */,
 				498F06B215F96A63005ADCCE /* main.m */,
@@ -149,6 +166,21 @@
 				498F06CD15F96A65005ADCCE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		582E251215FD11F400DE2A40 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				582E252315FD1EBF00DE2A40 /* Default@2x.png */,
+				582E252115FD1EB900DE2A40 /* Default.png */,
+				582E251F15FD191800DE2A40 /* gray.png */,
+				582E251D15FD160600DE2A40 /* blue.png */,
+				582E253415FD545700DE2A40 /* lightblue.png */,
+				582E253515FD545700DE2A40 /* orange.png */,
+				582E251315FD120000DE2A40 /* icon.png */,
+				582E251415FD120000DE2A40 /* icon@2x.png */,
+			);
+			name = graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +256,14 @@
 			files = (
 				498F06B115F96A63005ADCCE /* InfoPlist.strings in Resources */,
 				498F06BD15F96A64005ADCCE /* ViewController.xib in Resources */,
+				582E251515FD120000DE2A40 /* icon.png in Resources */,
+				582E251615FD120000DE2A40 /* icon@2x.png in Resources */,
+				582E251E15FD160600DE2A40 /* blue.png in Resources */,
+				582E252015FD191800DE2A40 /* gray.png in Resources */,
+				582E252215FD1EB900DE2A40 /* Default.png in Resources */,
+				582E252415FD1EBF00DE2A40 /* Default@2x.png in Resources */,
+				582E253615FD545700DE2A40 /* lightblue.png in Resources */,
+				582E253715FD545700DE2A40 /* orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,11 +354,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liang Shi";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Liang Shi";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -333,7 +377,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				SDKROOT = iphoneos;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "E8E3FE28-FDAA-42AB-89BA-2B49B5C67201";
+				"PROVISIONING_PROFILE[sdk=*]" = "E8E3FE28-FDAA-42AB-89BA-2B49B5C67201";
+				SDKROOT = iphoneos5.1;
 			};
 			name = Debug;
 		};
@@ -341,11 +388,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liang Shi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liang Shi";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -353,8 +404,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "E8E3FE28-FDAA-42AB-89BA-2B49B5C67201";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E8E3FE28-FDAA-42AB-89BA-2B49B5C67201";
+				SDKROOT = iphoneos5.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -362,10 +416,23 @@
 		498F06D615F96A65005ADCCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=*]" = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liang Shi";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RPNCalculator/RPNCalculator-Prefix.pch";
 				INFOPLIST_FILE = "RPNCalculator/RPNCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E8E3FE28-FDAA-42AB-89BA-2B49B5C67201";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,10 +440,25 @@
 		498F06D715F96A65005ADCCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=*]" = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liang Shi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liang Shi";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RPNCalculator/RPNCalculator-Prefix.pch";
 				INFOPLIST_FILE = "RPNCalculator/RPNCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E8E3FE28-FDAA-42AB-89BA-2B49B5C67201";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E8E3FE28-FDAA-42AB-89BA-2B49B5C67201";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -434,6 +516,7 @@
 				498F06D715F96A65005ADCCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		498F06D815F96A65005ADCCE /* Build configuration list for PBXNativeTarget "RPNCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +525,7 @@
 				498F06DA15F96A65005ADCCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
